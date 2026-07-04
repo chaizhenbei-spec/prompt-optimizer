@@ -27,12 +27,8 @@
 
 1. 安装 [Node.js 18+] 管理员模式下命令行直接如输入：winget install OpenJS.NodeJS.18
 2. 克隆或下载本项目
-3. 目前项目仅支持使用 DeepSeek，双击 `configure-api-key.bat`，按提示输入自己的 API Key
-4. 双击 `start-app.bat`
-5. 浏览器打开 `http://localhost:5177`
-
-不要直接打开 `public/index.html`。这个项目需要 `server.js` 提供后端接口。
-
+3. 目前项目仅支持使用 DeepSeek，双击 `配置API密钥.bat`，按提示输入自己的 API Key
+4. 双击 `启动软件.bat`
 
 ## 环境变量
 
