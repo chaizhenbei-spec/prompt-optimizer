@@ -2,7 +2,7 @@
 Prompt Optimizer transforms vague ideas into precise AI instructions. It uses a modular framework and the AIM method to combine roles, context, and constraints. Leverage AI to auto-fill details and iteratively refine prompts, ensuring professional-grade inputs for optimal AI performance.
 
 #注意!!!
-使用前请在命令行终端管理员模式下输入以下命令配置node
+使用前请在命令行终端管理员模式下输入以下命令配置node/n
 输入以下命令：winget install OpenJS.NodeJS.18
 
 
