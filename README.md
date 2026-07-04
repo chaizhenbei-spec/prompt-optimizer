@@ -14,11 +14,6 @@
 - 常用场景保存、命名、重命名、套用、删除
 - 历史记录搜索、复制、编辑、删除
 
-## 安全说明
-
-不要把真实 API Key 提交到 GitHub。
-
-本项目只应该提交 `.env.example`，不要提交 `.env`。`.gitignore` 已经默认忽略 `.env`。
 
 ## 环境要求
 
@@ -30,35 +25,14 @@
 
 ### Windows 双击启动
 
-1. 安装 [Node.js 18+](https://nodejs.org/)
+1. 安装 [Node.js 18+] 管理员模式下命令行直接如输入：winget install OpenJS.NodeJS.18
 2. 克隆或下载本项目
-3. 如需使用 DeepSeek，双击 `configure-api-key.bat`，按提示输入自己的 API Key
+3. 目前项目仅支持使用 DeepSeek，双击 `configure-api-key.bat`，按提示输入自己的 API Key
 4. 双击 `start-app.bat`
 5. 浏览器打开 `http://localhost:5177`
 
 不要直接打开 `public/index.html`。这个项目需要 `server.js` 提供后端接口。
 
-### 命令行启动
-
-复制环境变量示例：
-
-```powershell
-Copy-Item .env.example .env
-```
-
-编辑 `.env`，填入自己的 DeepSeek API Key。
-
-启动服务：
-
-```powershell
-npm start
-```
-
-打开：
-
-```text
-http://localhost:5177
-```
 
 ## 环境变量
 
